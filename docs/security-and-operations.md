@@ -12,7 +12,7 @@ An Integration Account binds a company, adapter, environment, and merchant ident
 
 Integration Event payloads are encrypted with the Frappe site key and given an adapter-specific purge date. Secrets are fetched only when an adapter needs them, and tokens are cached with their identity. Logs and error events are designed around IDs, event names, and bounded error text rather than raw request bodies or buyer records. Correlation IDs let an operator find the related records without making every log line contain personal data.
 
-The public sandbox is a separate demonstration with fictional company and buyer records. Its Shopify and DHL connections use test environments. Public role accounts do not include the Administrator account. Interviewers should use the [demo instructions on the product page](https://hammadbhutta.dev/kontor/#explore), not a credential in this repository.
+The public sandbox is a separate demonstration with fictional company and buyer records. Its Shopify and DHL connections use test environments. Public role accounts do not include the Administrator account. Interviewers should use the [demo instructions on the product page](https://kontor.hammadbhutta.dev/#explore), not a credential in this repository.
 
 ## Ingress and egress
 

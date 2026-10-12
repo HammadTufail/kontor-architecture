@@ -41,7 +41,7 @@ The distinction matters: before packing, a changed line or total can rebuild the
 
 Assessment maps marketplace SKUs to internal items and checks the facts needed for fulfillment, such as address, line quantities, stock, ship-by time, and tax treatment. A failed precondition becomes a **hold code with a reason**. The order page and work queue show the reason and the action a person can take. This keeps an unresolved order out of the packer's ready list.
 
-The owner/operations path is a product choice as much as a technical one: the system should explain why it stopped and who can unblock it. A visitor can see this on an on-hold Channel Order in the [live sandbox](https://hammadbhutta.dev/kontor/#explore).
+The owner/operations path is a product choice as much as a technical one: the system should explain why it stopped and who can unblock it. A visitor can see this on an on-hold Channel Order in the [live sandbox](https://kontor.hammadbhutta.dev/#explore).
 
 ## 3. Pack a physical parcel
 

@@ -2,7 +2,7 @@
 
 Kontor is a commerce operations system built on ERPNext and Frappe. I designed and built it for a seller working across several marketplace stores and shipping integrations. The product connects order intake, stock, catalog, packing, parcels, returns, and accounting handoffs in role-specific workflows.
 
-**[See the product and use the sandbox](https://hammadbhutta.dev/kontor/)** · **[See selected work](https://hammadbhutta.dev/portfolio/)** · **[CV](https://hammadbhutta.dev/cv/)**
+**[See the product and use the sandbox](https://kontor.hammadbhutta.dev/)** · **[See selected work](https://portfolio.hammadbhutta.dev/)** · **[CV](https://cv.hammadbhutta.dev/)**
 
 This repository is a public technical case study. The application source and merchant deployment remain private while a distribution and license review is pending. The public demo uses fictional records and Shopify and DHL test environments. Nothing here is a production credential, customer export, or runnable copy of the application.
 
@@ -149,7 +149,7 @@ The public demo proves the role screens and connected test flows visible there. 
 
 ## What to inspect in the live sandbox
 
-1. Open the [Kontor product page](https://hammadbhutta.dev/kontor/) and choose the **Owner** account. Inspect Channel Orders and an order on hold; the reason and next action are placed with the order.
+1. Open the [Kontor product page](https://kontor.hammadbhutta.dev/) and choose the **Owner** account. Inspect Channel Orders and an order on hold; the reason and next action are placed with the order.
 2. Switch to **Packer**. The pack station presents the parcel's items and actions without exposing owner-level settings.
 3. Return to **Owner** and inspect the Shipping Work Queue and parcel state.
 4. Use the other role accounts to see how catalog and finance work are separated.
