@@ -72,7 +72,7 @@ sequenceDiagram
     H->>O: Resolve, correct, or decline
   end
   O-->>P: Accepted order ready to pack
-  P->>S: Scan items; assign boxes and weight
+  P->>S: Scan items and assign boxes and weight
   S->>E: Queue label request
   E->>C: Create label in worker
   C-->>E: Label or uncertain outcome
