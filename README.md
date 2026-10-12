@@ -1,8 +1,8 @@
 # Kontor — architecture and engineering notes
 
-Kontor is a commerce operations system built on ERPNext and Frappe. I designed and built it for a seller working across several marketplace stores and shipping integrations. The product connects order intake, stock, catalog, packing, parcels, returns, and accounting handoffs in role-specific workflows.
+Kontor is a commerce operations system built on ERPNext and Frappe. I designed and built it for a seller whose team now handles 1,000+ orders a month in the product. Kontor is rolling out across more of the seller's stores to replace a legacy system. It connects order intake, stock, catalog, packing, parcels, returns, and accounting handoffs in role-specific workflows.
 
-**[See the product and use the sandbox](https://kontor.hammadbhutta.dev/)** · **[See selected work](https://portfolio.hammadbhutta.dev/)** · **[CV](https://cv.hammadbhutta.dev/)**
+**[See the product and use the sandbox](https://kontor.hammadbhutta.dev/)** · **[Follow the interactive system flow](https://kontor.hammadbhutta.dev/#architecture)** · **[See selected work](https://portfolio.hammadbhutta.dev/)** · **[CV](https://cv.hammadbhutta.dev/)**
 
 This repository is a public technical case study. The application source and merchant deployment remain private while a distribution and license review is pending. The public demo uses fictional records and Shopify and DHL test environments. Nothing here is a production credential, customer export, or runnable copy of the application.
 
@@ -173,6 +173,6 @@ These paths identify where the mechanisms live in the private application source
 
 ## Scope and authorship
 
-I designed and implemented Kontor end to end. It is being used for a seller's operations across roughly three to four marketplace stores and two to four shipping integrations. The public sandbox is separate from that merchant's records. This repository describes the architecture as implemented in October 2026; operational configuration and vendor capabilities may change.
+I designed and implemented Kontor end to end. It is handling 1,000+ orders a month for one seller, with rollout across more stores underway to replace a legacy system. The public sandbox is separate from that merchant's records. This repository describes the architecture as implemented in October 2026; operational configuration and vendor capabilities may change.
 
 © 2026 Hammad Bhutta. Documentation in this repository is available under [CC BY 4.0](LICENSE). The license does not cover the private Kontor application or third-party products.
